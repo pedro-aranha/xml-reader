@@ -1,0 +1,32 @@
+.pagination{
+    position: fixed;
+     left: 50%;
+    bottom: 200px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+   }
+   h1 {
+    display: flex;
+        justify-content: center;
+        gap: .1%;
+   }
+   h7 {
+        display: flex;
+        justify-content: center;
+        gap: .1%;
+       font-size: 12px;
+
+    }
+  
+    .xmlUpload,
+    .box-search,
+    .pagination,
+    .resultado{
+        display: flex;
+        justify-content: center;
+        gap: .1%;
+    }
+
+    table, th, td {
+        border:1px solid black;
+    }
